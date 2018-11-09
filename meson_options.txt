@@ -1,1 +1,0 @@
-option('exename', type : 'string', value : 'com.github.spheras.desktopfolder', description : 'executable name')
