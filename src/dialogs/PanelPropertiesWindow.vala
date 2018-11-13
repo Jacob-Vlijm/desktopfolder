@@ -23,6 +23,15 @@
 
 namespace DesktopFolder.Dialogs {
 
+    public class ShowInfo : Gtk.Window {
+        public ShowInfo(string filepath) {
+            this.set_title(DesktopFolder.Lang.FILEPROPERTIES_PROPERTIES);
+            
+            this.show_all();
+            print(@"Works + $filepath\n");
+        }
+    }
+
     public class OpenWith : Gtk.AppChooserDialog  {
         public OpenWith (string content_type, string path) {
             string cleaned_path = "'" + path.replace("'", "'\\''") + "'";

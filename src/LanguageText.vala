@@ -165,6 +165,8 @@ namespace DesktopFolder.Lang {
     // desktopfolder menu - create a new empty Text File
     public const string DESKTOPFOLDER_MENU_NEW_SUBMENU                  = _("New");
     // panel properties - Properties section
+    public const string FILEPROPERTIES_PROPERTIES                       = _("File properties");
+    // file properties - ShowInfo window
     public const string PANELPROPERTIES_PROPERTIES                      = _("Properties");
     // panel properties - General section
     public const string PANELPROPERTIES_GENERAL                         = _("General");
@@ -190,4 +192,6 @@ namespace DesktopFolder.Lang {
     public const string PANELPROPERTIES_RESOLUTION_STRATEGY_STORE       = _("Store");
     // change desktop menu
     public const string DESKTOPFOLDER_MENU_CHANGEDESKTOP                = _("Change Wallpaper");
+    // open terminal here
+    public const string DESKTOPFOLDER_MENU_OPENTERMINAL                 = _("Open terminal here");
 }

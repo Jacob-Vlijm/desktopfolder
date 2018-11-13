@@ -642,7 +642,6 @@ public class DesktopFolder.ItemView : Gtk.EventBox {
         item.show ();
         menu.append (item);
         // }
-
         menu.show_all ();
         // }
 
